@@ -3,47 +3,77 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Урок 1</title>
+	<title>2</title>
 </head>
 <body>
-	<h1>Тег h1</h1>
-	<h2>Тег h2</h2>
-	<h3>Тег h3</h3>
-	<h4>Тег h4</h4>
-	<h5>Тег h5</h5>
-	<h6>Тег h6</h6>
-
-	<p>Абзац №1	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-	<p>Абзац №2	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-	<span>span №1</span>
-	<span>span №2</span>
-
-	<a target="_blank_" href="https://google.com">Ссылка на Google</a>
-	
-	<br>
-
-	<img src="img/car.jpg" alt="Bugatti" width="500px">
-
-	<ol>
-		<li>Тег li (Основной ol)</li>
-		<li>Тег li (Основной ol)</li>
-	</ol>
-
-	<ul>
-		<li>Тег li (Основной ul)</li>
-		<li>Тег li (Основной ul)</li>
-	</ul>
+	<form action="#" method="post" enctype="multipart/form-data">
+		<div>
+			<p>Имя</p>
+			<input tabindex="1" placeholder="Имя" tabindex="1" type="text" name="username">
+		</div>
+		<div>
+			<p>Пароль</p>
+			<input tabindex="2" placeholder="Пароль" tabindex="2" type="password" name="userpass">
+		</div>
+		<div>
+			<p>Номер телефона</p>
+			<input tabindex="3" type="tel" name="phonenum">
+		</div>
+		<div>
+			<p>Пол</p>
+			<div>
+			<input checked tabindex="4" type="radio" name="gender" value="male"> Мужчина
+			</div>
+			<div>
+			<input tabindex="5" type="radio" name="gender" value="female"> Женщина
+			</div>
+		</div>
+		<div>
+			<p>Имущество</p>
+			<div>
+				<input tabindex="6" checked type="checkbox" name="bike" value="yes" /> Велик
+			</div>
+			<div>
+				<input tabindex="7" type="checkbox" name="car" value="yes" /> Машина
+			</div>
+			<div>
+				<input tabindex="8" disabled type="checkbox" name="house" value="yes" /> Дом
+			</div>
+		</div>
+		<div>
+			<p>Дополнительная информация</p>
+			<textarea tabindex="9" name="text"></textarea>
+		</div>
+		<div>
+			<p>Прикрепить фото</p>
+			<input tabindex="10" type="file" name="userphoto">
+		</div>
+		<div>
+			<p>Любимый цвет</p>
+			<select name="color">
+				<option tabindex="11" value="red">Красный</option>
+				<option tabindex="12" value="green">Зеленый</option>
+				<option tabindex="13" selected value="yellow">Желтый</option>
+				<option tabindex="14" value="black">Черный</option>
+				<option tabindex="15" value="white">Белый</option>
+			</select>
+		</div>
+		<div>
+			<p>Действия</p>
+			<button tabindex="16" type="submit">Отправить</button>
+			<button tabindex="17" type="reset">Очистить</button>
+		</div>
+	</form>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
